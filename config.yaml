@@ -1,6 +1,6 @@
-CLIENT_SECRET: "~/.config/google/client_secret_883086520298-tq7f5v02pvarsbbt5el7vvp7q0savq5c.apps.googleusercontent.com.json"
+CLIENT_SECRET: /Users/davidfranz/.config/google/credentials.json
 SCOPES: 
-  - "https://www.googleapis.com/auth/admin.directory.user"
-  - "https://www.googleapis.com/auth/admin.datatransfer"
-  - "https://www.googleapis.com/auth/drive"
-  - "https://www.googleapis.com/auth/spreadsheets"
+  - https://www.googleapis.com/auth/admin.directory.user
+  - https://www.googleapis.com/auth/admin.datatransfer
+  - https://www.googleapis.com/auth/drive
+  - https://www.googleapis.com/auth/spreadsheets

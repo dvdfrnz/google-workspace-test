@@ -1,18 +1,14 @@
 from typing import Dict
 
-# import pandas as pd
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
 from authentication import get_credentials
 
-# from typing import List
-
 
 def iterate_folders():
     creds = get_credentials()
     try:
-        # create drive api client
         service = build("drive", "v3", credentials=creds)
         files = []
         page_token = None
